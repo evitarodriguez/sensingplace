@@ -1,0 +1,82 @@
+@media (min-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+
+  #landing {
+    max-width: 1000px;
+  }
+}
+
+#navMainElement:hover {
+  /* background-color: #CEE8FF; */
+  color: #0087FF;
+}
+
+#navbarDropdown:hover {
+  /* background-color: #CEE8FF; */
+  color: #0087FF;
+}
+
+#navDropdownElement:hover {
+  background-color: #FFEEEE;
+  color: #FF0000;
+}
+
+#HTMAA:hover {
+  color: #FF0000;
+}
+
+#GS:hover {
+  color: #FF9B1F;
+}
+
+#navDropdownFinal:hover {
+  background-color: #FF0000;
+  color: #FFC0CB;
+}
+
+#link:hover {
+  background-color: #FF0000;
+  color: #FFC0CB;
+  text-decoration: none;
+}
+
+#link {
+  background-color: #FFFF00;
+  color: #000000;
+  text-decoration: none;
+}
+
+#gridlink {
+  color: #000000;
+  text-decoration: none;
+}
+
+.figure {
+  font-style: italic;
+  color: #999999;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  padding-top: 10vh;
+  font-family: 'Karla', sans-serif;
+}
+
+pre code {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+  background-color: #eee;
+  display: block;
+  padding: 10%;
+  overflow: none;
+}
