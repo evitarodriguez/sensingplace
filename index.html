@@ -9,7 +9,7 @@
   <meta name="description" content="Evita Rodriguez's HTMAA Page">
   <meta name="author" content="Evita Rodriguez">
   <!-- <link rel="icon" href="./favicon.ico"> -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙃</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
   <a name="top"></a>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" id=GS href="./about.html">Evita Rodriguez</a>
+      <a class="navbar-brand" id=GS>Evita Rodriguez</a>
 
       <a class="navbar-brand font-weight-bold" id=HTMAA href="./index.html">Sensing Place</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,21 +43,11 @@
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" id="navDropdownFinal" href="./light.html">light</a>
-              <a class="dropdown-item" id="navDropdownFinal" href="./final_project_tracker.html">Final Project Tracker</a>
-              <div class="dropdown-divider"></div>
-              <!-- <a class="dropdown-item" id="navDropdownElement" href="./week00.html">Week 00: CAD and Final Project Proposal</a> -->
-              <a class="dropdown-item" id="navDropdownElement" href="./week01.html">Week 01: Computer-Controlled Cutting</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week02.html">Week 02: 3D Scanning and Printing</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week03.html">Week 03: Computer-Controlled Machining</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week04.html">Week 04: Molding and Casting</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week05.html">Week 05: Electronics Production</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week06.html">Week 06: Electronics Design</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week07.html">Week 07: Embedded Programming</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week08.html">Week 08: Input Devices</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week09.html">Week 09: Output Devices</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week10.html">Week 10: Networking and Communications</a>
-              <a class="dropdown-item" id="navDropdownElement" href="./week11.html">Week 11: Interface and Application Programming</a>
+              <a class="dropdown-item" id="navDropdownElement" href="./light.html">light</a>
+              <a class="dropdown-item" id="navDropdownElement" href="./detail">detail</a>
+              <a class="dropdown-item" id="navDropdownElement" href="./poetics">poetics</a>
+              <a class="dropdown-item" id="navDropdownElement" href="./photo_essay">photo_essay</a>
+
             </div>
           </li>
 
@@ -67,141 +57,9 @@
   </nav>
 
 
+
   <div class="container mt-5">
-    <div>
-      <h2>Week 02</h2>
-      <h4>3D Scanning and Printing</h4>
 
-      <br>
-      <hr class="solid">
-      <br>
-
-      <figure>
-        <img src="./assets/week02/latch.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Installed latch on basement workshop door.</figcaption>
-      </figure>
-      <br>
-      <p>
-        I modeled the latch in Fusion 360 and exported as an .STL file. I used 3D Wox to generate the g-code. I used "Easy Mode" and went for a slower, high quality print. In retrospect, I should have used "Advanced Mode" so I could thicken the walls
-        of the print to help strengthen it as shown in the screen captures below.
-      </p>
-      <p>
-        Could this model be made with subtractive methods? Hypothetically, maybe with a router attached to a 6-axis arm and some very elaborate toolpath planning. In reality, if subtractive methods were the only option, this would be redesigned to be
-        made in parts and assembled.
-      </p>
-      <br>
-      <figure>
-        <div class="sketchfab-embed-wrapper">
-          <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/0b9481eaef824d1fa8a27b314b8e4418/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0" frameborder="0"
-            allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-        <figcaption class="figure">3D model of latch.</figcaption>
-
-      </figure>
-      <br>
-      <p>
-        Not shockingly, the latch broke pretty quickly. If I was going to make this again, I would probably print it using a different materal like ABS. Having made the latch I think it makes more sense to be used with a sliding door as shown in the
-        precedent. With the perpendicular movement of the swinging door, you create a point with a lot of stress from bending at the stem that holds the locking ring, making it susceptible to breaking (which is exactly what happened). The stem could
-        have also just been a bit more substantial.
-      </p>
-      <br>
-      <figure>
-
-        <img src="./assets/week02/wox_section.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">3D Wox views of sliced model with thickened walls.</figcaption>
-
-      </figure>
-
-      <br>
-      <h5>
-        3D Scanning
-      </h5>
-      <p>
-        For the 3D scanning portion of the week, I scanned a candle mold that belonged to a great-something-grandparent using Metashape from Agisoft. I took 91 photos of the candle mold, starting with a sequence of overview images
-        before moving on to more detailed images. Here is the general workflow once you have imported your photos into Metashape:
-      </p>
-
-      <ol type="1">
-        <li><strong>Align photos.</strong> Metashape orients each photo relative to the other photo in space and generates a sparse point cloud. Of the 91 photos I took, Metashape was able to align 79. </li>
-        <li><strong>Build dense point cloud.</strong> From the images and sparse point cloud, Metashape generates a dense point cloud, this time with over 22 million points! </li>
-        <li><strong>Build mesh using dense point cloud. <strong> Metahsape builds a mesh based off of the dense point cloud.</li>
-        <li><strong>Texture. <strong>For this model, texuring the mesh did not make a huge difference in appearance as can be seen below.</li>
-
-      </ol>
-      <br>
-      <figure>
-        <img src="./assets/week02/candle_mold.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Candle mold.</figcaption>
-      </figure>
-      <br>
-      <figure>
-        <img src="https://imgur.com/edtgLRI.gif" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">All of the images used to scan.</figcaption>
-      </figure>
-      <br>
-
-      <figure>
-        <img src="./assets/week02/align_photos.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Photo alignment and sparse point cloud.</figcaption>
-      </figure>
-
-      <br>
-
-      <figure>
-        <img src="./assets/week02/dense_point_cloud.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Dense point cloud.</figcaption>
-      </figure>
-
-      <br>
-
-      <figure>
-        <img src="./assets/week02/mesh.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Mesh generated from dense point cloud.</figcaption>
-      </figure>
-
-      <br>
-
-      <figure>
-        <img src="./assets/week02/texture_map.jpg" class="img-fluid" alt="Responsive image">
-        <figcaption class="figure">Mesh with texture map.</figcaption>
-      </figure>
-
-      <br>
-      <figure>
-        <div class="sketchfab-embed-wrapper">
-          <iframe width="100%" height="480" src="https://sketchfab.com/models/87079f7a2a3648bd9fd8b9dca5861a8c/embed?autospin=1&autostart=1&camera=0&ui_infos=0&ui_controls=0&ui_stop=0&ui_watermark=0" frameborder="0" allow="autoplay; fullscreen; vr"
-            mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-        <figcaption class="figure">3D model of candle mold.</figcaption>
-
-      </figure>
-
-
-      <br>
-
-      <p>
-        *Note: The model above is shown after reducing the face count by a third.*
-        I would say results were mixed. While the model looks decent enough for some applications on the screen, I think significant post-processing would be necessary to make a decent 3D print of the objeect. Also, as can be seen in the model, more
-        pictures were needed
-        around the handle. </p>
-      <p>
-        A couple of important takeaways after digging into Metashape a
-        bit:
-      </p>
-
-      <ol type="1">
-        <li>Make sure you are using your computer's GPU to process the scan you're working on! This can be configured in preferences. I wasn't doing this at first and waste several hours of processing time. On average there was a 4x performance boost
-          by changing this setting.</li>
-        <li>Trim as much data away as possible before processing. This can be done with cropping or deleting points and will speed up processing.</li>
-        <li>Take good photos. This is really the most important point. Your scan will only be as good as the photos you provide. You can also create a scan from video.</li>
-      </ol>
-      <br>
-
-      <hr class="solid">
-      <br>
-      <p>Files: <a href="./assets/week02/200917_latch.f3d" download>200917_latch.f3d</a></p>
-      <br>
-    </div>
   </div>
   <!-- Bootstrap core JavaScript
     ================================================== -->
