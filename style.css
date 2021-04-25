@@ -3,6 +3,10 @@
     max-width: 720px;
   }
 
+  .img-fluid{
+    max-height: 500px;
+  }
+  
   #landing {
     max-width: 1000px;
   }
