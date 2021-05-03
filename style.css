@@ -14,41 +14,41 @@
 
 #navMainElement:hover {
   /* background-color: #CEE8FF; */
-  color: #0087FF;
+  color: #aaaaaa;
 }
 
 #navbarDropdown:hover {
   /* background-color: #CEE8FF; */
-  color: #0087FF;
+  color: #aaaaaa;
 }
 
 #navDropdownElement:hover {
-  background-color: #FFEEEE;
-  color: #FF0000;
+  /* background-color: #aaaaaa; */
+  color: #aaaaaa;
 }
 
 #HTMAA:hover {
-  color: #FF0000;
+  color: #aaaaaa;
 }
 
-#GS:hover {
-  color: #FF9B1F;
-}
+/* #GS:hover {
+  color: #aaaaaa;
+} */
 
 #navDropdownFinal:hover {
-  background-color: #FF0000;
-  color: #FFC0CB;
+  /* background-color: #aaaaaa; */
+  color: #aaaaaa;
 }
 
 #link:hover {
-  background-color: #FF0000;
-  color: #FFC0CB;
+  /* background-color: #FF0000; */
+  color: #aaaaaa;
   text-decoration: none;
 }
 
 #link {
-  background-color: #FFFF00;
-  color: #000000;
+  /* background-color: #FFFF00; */
+  color: #aaaaaa;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@
 
 .figure {
   font-style: italic;
-  color: #999999;
+  color: #aaaaaa;
 }
 
 p {
